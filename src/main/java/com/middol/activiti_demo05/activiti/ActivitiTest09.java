@@ -27,6 +27,7 @@ public class ActivitiTest09 {
                 .addClasspathResource("activiti9/leave.png")
                 .deploy();
         //启动
+        System.out.println("12345");
         RuntimeService runtimeService = processEngine.getRuntimeService();
         ProcessInstance processInstance = runtimeService.startProcessInstanceByKey("leaveProcess");
         System.out.println("流程id:"+processInstance.getId());
