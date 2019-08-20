@@ -1,0 +1,13 @@
+package com.middol.activiti_demo05;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ActivitiDemo05Application {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ActivitiDemo05Application.class, args);
+    }
+
+}
